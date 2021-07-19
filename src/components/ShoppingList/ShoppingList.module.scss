@@ -1,0 +1,50 @@
+@import "../../variables.scss";
+
+.shoppingList {
+  width: 95%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+  ol {
+    height: 85%;
+    list-style-position: inside;
+      
+    background-color: $accent;
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+    font-family: $second-font;
+
+      li {
+        margin-left: 5px;
+      }
+
+  }
+
+  button {
+      width: 30%;
+      background-color: $primary-color;
+      border: 2px solid $primary-color;
+      border-radius: 5px;
+      font-family: $primary-font;
+      color: $accent;
+     }
+
+  button:hover {
+      border: 3px solid $primary-color;
+      background-color: $secondary-color;
+      color: $primary-color;
+    }
+        
+
+  button:active {
+      border: 3px solid #f48c06;
+      background-color: $primary-color;
+      color: $accent;
+    }
+
+ 
+  
+}

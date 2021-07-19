@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap");
+.shoppingList {
+  width: 95%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.shoppingList ol {
+  height: 85%;
+  list-style-position: inside;
+  background-color: #f1faee;
+  border: 2px solid #457b9d;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+.shoppingList ol li {
+  margin-left: 5px;
+}
+.shoppingList button {
+  width: 30%;
+  background-color: #457b9d;
+  border: 2px solid #457b9d;
+  border-radius: 5px;
+  font-family: "Fredoka One", cursive;
+  color: #f1faee;
+}
+.shoppingList button:hover {
+  border: 3px solid #457b9d;
+  background-color: #a8dadc;
+  color: #457b9d;
+}
+.shoppingList button:active {
+  border: 3px solid #f48c06;
+  background-color: #457b9d;
+  color: #f1faee;
+}

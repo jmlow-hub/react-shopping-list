@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap");
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #a8dadc;
+}
+.app h3 {
+  width: 100vw;
+  height: 5%;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  color: #f1faee;
+  text-shadow: 1px 1px #457b9d;
+  font-size: 1.5em;
+}

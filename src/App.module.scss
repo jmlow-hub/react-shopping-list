@@ -1,0 +1,24 @@
+@import "./variables.scss";
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $secondary-color;
+
+    h3 {
+      width: 100vw;
+      height: 5%;
+      text-align: center;
+      font-family: $primary-font;
+      color: $accent;
+      text-shadow: 1px 1px $primary-color;
+      font-size: 1.5em;
+      
+    }
+  
+
+}
